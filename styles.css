@@ -124,6 +124,15 @@ img {
 #year_mark{
 	text-align: center;
 }
+
+#about{
+	font-family: "Alkalami-Regular";
+	padding: 10px;
+}
+
+
+
+
 @media (max-width: 650px) {
      #ul {
        flex-direction: column;
