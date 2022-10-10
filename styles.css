@@ -61,6 +61,11 @@ nav a:hover {
   align-items: center;
   height: 50vh;
   background-color: #000;
+
+   background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
   background-image: url(./img/France_Houses_Paris.jpg);
   color: gray;
 }
@@ -77,7 +82,7 @@ nav a:hover {
 
 .project-grid{
 	display: grid;
-	  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
     width: 100%;
     max-width: 1280px;
@@ -133,8 +138,41 @@ img {
 
 
 
-@media (max-width: 650px) {
+@media all and (max-width: 992px) {
      #ul {
        flex-direction: column;
      }
+
+    #welcome-section h1 {
+     	font-size: 6rem;
+     }
   }
+
+@media all and (max-width: 768px){
+	#welcome-section h1 {
+     	font-size: 3rem;
+     }
+}
+
+
+@media all and (max-width: 480px){
+	#welcome-section h1 {
+     	font-size: 3rem;
+     }
+     #welcome-section{
+     	/*background-image: mobile_background.jpg;*/
+     }
+
+
+}
+
+@media all and (max-width: 320px){
+	#welcome-section h1 {
+     	font-size: 2rem;
+     }
+     #welcome-section{
+     	/*background-image: mobile_background.jpg;*/
+     }
+
+
+}
