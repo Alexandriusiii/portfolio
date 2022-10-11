@@ -172,7 +172,7 @@ img {
      }
      #welcome-section{
      	height: 162px;
-     	width: 430px;
+     	width: 456px;
      	padding-bottom: 50px;
      	/*background-image: mobile_background.jpg;*/
      }
@@ -184,7 +184,15 @@ img {
      #about{
      	background-color: gray;
     	width: 438px;
+    	padding-bottom: 160px;
      }
+
+     #contacts{
+     	width: 482px;
+     	background-color: gray;
+     }
+
+
 
 
 }
